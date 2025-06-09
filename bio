@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bio</title>
+    <link rel="stylesheet" type="text/css" href="css/fonts/updatedstylesheet.css">
+
+    <style>
+        .text, .bio-text {
+            font-size: 1.2rem !important; /* Ensures readability across devices */
+            font-family: 'helveticaneuemedium', Helvetica, Arial, sans-serif;
+        }
+
+        .gradient-link, a {
+            font-size: inherit !important; /* Ensures links match the surrounding text */
+            font-weight: inherit !important;
+            text-decoration: none;
+        }
+
+        /* Mobile-Specific Fixes */
+        @media (max-width: 768px) { /* Tablets */
+            .text, .bio-text {
+                font-size: 1rem !important;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) { /* Mobile Phones */
+            .text, .bio-text {
+                font-size: 0.9rem !important;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+
+
+<body style="margin: 0px; height: 100%; width: 100%; padding: 5%;">
+
+    <header style="padding: 0px;">
+        <div class="row">
+            <div class="column">
+                <h1 style="text-align: left; margin: 0;" class="text">bio</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="row" style="padding-top: 2.5%; padding-right: 20%;">
+        <p class=".bio-text">
+            Halle Frost grew up in a rain-drenched city that rests on occupied lands and the Cascadia subduction zone. <br><br>
+            She spent the majority of her 20s in a city built on a bog, home to 
+            "Vier der besten Unis in Deutschland. Fünf, wenn man die Straße mitzählt."<br><br>
+
+            From 2015-2017, she worked as the Art Editor of the
+            <a href="https://issuu.com/ovmag" class="gradient-link" target="_blank">Oregon Voice</a> 
+            and completed her Bachelors in Humanities and Fine Art. <br><br>
+
+            From 2018-2020, she worked as a freelance writer and editor for 
+            <a href="https://artsoftheworkingclass.org/" class="gradient-link" target="_blank">Arts of the Working Class</a>.<br><br>
+
+            From 2020-2023, she worked at 
+            <a href="https://spreuthmagers.com" class="gradient-link" target="_blank">Sprüth Magers</a>, 
+            as the editor for <a href="https://weirdeconomies.com/" class="gradient-link" target="_blank">Weird Economies</a> 
+            and collaborated on curatorial projects with 
+            <a href="https://raeume.art/" class="gradient-link" target="_blank">Räume</a>.
+            She also started a clothing brand of streetwear sourced from walking around the city and collecting discarded items.
+            She would alter then sell them under hype-based pricing through Instagram.
+            The brand was called Burnt—sustainable and unattainable due to the exclusive number of items and limited interest of the manufacturer to go to the post office and ship them.<br><br>
+
+            In 2024, she completed her certification in Digital Product Design at WBS Coding School and launched 
+            <a href="https://www.hxlocreative.com/" class="gradient-link" target="_blank">Halo Creative</a> 
+            basically to fund an unavailing job search to move out of the Art World. <br><br>
+            In 2025 she launched a new podcast, 
+            <a href="https://burningdesirepodcast.com/" class="gradient-link" target="_blank">Burning Desire</a>, 
+            and will be speaking at Art Dubai in April. <br><br>
+
+            As an editor, she strives to make 'good ideas' more legible than the bad. <br>
+            As an artist, her mediums range from painting to podcasting.<br>
+            As a human, she dreams of an old age on earth.
+        </p>
+    </div>
+
+    <div style="padding-top: 3%;">
+        <h1 class="text"><a href="index.html">back</a></h1>
+    </div>
+
+</body>
+</html>
