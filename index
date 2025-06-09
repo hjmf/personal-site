@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halle frost</title>
+    <link rel="stylesheet" type="text/css" href="css/updatedstylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        /* Column structure is unchanged */
+        .column {
+            flex: 50%;
+        }
+
+        .thing {
+            flex: 30%;
+        }
+
+        .what {
+            flex: 25%;
+        }
+
+        .where {
+            flex: 25%;
+        }
+
+        .when {
+            flex: 20%;
+        }
+
+        a:link, a:visited {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            font-size: 2vw;
+            font-family: helveticaneuemedium;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px; height: 100%; width: 100%; padding: 5%;">
+
+    <header style="padding: 0px;">
+        <div class="row">
+            <div class="column">
+                <h1 style="text-align: left; margin-bottom: 3px;" class="text">halle frost</h1>
+
+                <h2 style="text-align: left; margin-bottom: 0px; font-size: 1.5rem" class="text">
+                    this website was built by Evan Hamilton, my bff.
+                </h2>
+                <h3 style="text-align: left; margin-bottom: 0px; font-size: 1.5rem" class="text">
+                    he paid for the domain and built me this site when we were young. now we are in our 30s so he wanted to stop paying for the domain subscription which is totally fair. 
+                </h3>
+
+                <div style="padding-top: 10%;">
+                    <h1 class="text">
+                        <a href="bio.html">bio ~ </a>
+                        <a href="https://halopraxis.substack.com/">newsletter ~ </a>
+                        <a href="https://www.linkedin.com/in/halle-frost/">linkedin</a>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="column">
+                <h1 style="text-align: right; padding-top: 40%; margin: 0; font-size: 2.5vw; text-decoration: none; white-space: nowrap;" class="text">
+                    hjmfrost at gmail <br>
+                    <a style="text-decoration: none; white-space: nowrap; font-size: 2.5vw;" class="text"; target="_blank" href="https://www.instagram.com/halopraxis/">@halopraxis</a>
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="row" style="padding-top: 2.5%; padding-bottom: 2.5%">
+        <div class="thing"><h2 style="font-size: 3vw; ">work</h2></div>
+        <div class="what"><h2 style="font-size: 3vw; ">what</h2></div>
+        <div class="where"><h2 style="font-size: 3vw; ">where</h2></div>
+        <div class="when"><h2 style="font-size: 3vw; ">when</h2></div>
+    </div>
+
+    <!-- Work Sections with Correct Nesting -->
+    <hr style="height: 2px; background-color: black; border: none; width: 100%;">
+    
+    <a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://hallefrost.com/halo-ui-ux-portfolio">
+        <div class="thing"><p>Portfolio</p></div>
+        <div class="what"><p>UI/UX Product Design</p></div>
+        <div class="where"><p>Halo Design</p></div>
+        <div class="when"><p>July 2024</p></div>
+    </a>
+
+    <hr style="height: 2px; background-color: black; border: none; width: 100%;">
+
+    <!-- Auto-generated from your provided full file -->
+    <a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://podcasts.apple.com/gb/podcast/weird-economies-presents-the-exploits-of-play/id1734216731">
+        <div class="thing"><p>The Exploits of Play</p></div>
+        <div class="what"><p>Podcast Series</p></div>
+        <div class="where"><p>Weird Economies</p></div>
+        <div class="when"><p>February-June 2024</p></div>
+    </a>
+
+    <hr style="height: 2px; background-color: black; border: none; width: 100%;">
+
+    <a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://www.covenberlin.com/unter-den-linden/">
+        <div class="thing"><p>Unter Den Linden</p></div>
+        <div class="what"><p>Article</p></div>
+        <div class="where"><p>Coven Berlin</p></div>
+        <div class="when"><p>February 2023</p></div>
+    </a>
+
+    <hr style="height: 2px; background-color: black; border: none; width: 100%;"
+		
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://weirdeconomies.com/contributions/conversation-with-sarah-friend ">
+		<div class="thing">
+		<p> Sarah Friend </p>
+		</div>
+		<div class="what">
+			<p> Interview </p>
+		</div>
+		<div class="where">
+			<p> Weird Economies </p>
+		</div>
+		<div class="when">
+			<p> November 2021 </p>
+		</div>
+		</a>
+
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://weirdeconomies.com/contributions/for-the-strawberry-poison-dart-frog">
+		<div class="thing">
+		<p> For the Strawberry Poison Dart Frog </p>
+		</div>
+		<div class="what">
+			<p> Essay </p>
+		</div>
+		<div class="where">
+			<p> Weird Economies </p>
+		</div>
+		<div class="when">
+			<p> September 2021 </p>
+		</div>
+		</a>
+
+
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://artsoftheworkingclass.org/text/houseless-horoscope">
+		<div class="thing">
+		<p> Houseless </p>
+		</div>
+		<div class="what">
+			<p> Horoscope </p>
+		</div>
+		<div class="where">
+			<p> Arts of the Working Class </p>
+		</div>
+		<div class="when">
+			<p> December 2020 </p>
+		</div>
+		</a>
+
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://artsoftheworkingclass.org/text/notes-on-portland">
+		<div class="thing">
+		<p> Notes on Portland </p>
+		</div>
+		<div class="what">
+			<p> Essay </p>
+		</div>
+		<div class="where">
+			<p> Arts of the Working Class </p>
+		</div>
+		<div class="when">
+			<p> August 2020 </p>
+		</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://artsoftheworkingclass.org/text/rodney">
+		<div class="thing">
+		<p> Rodney </p>
+		</div>
+		<div class="what">
+			<p> Interview </p>
+		</div>
+		<div class="where">
+			<p> Arts of the Working Class </p>
+		</div>
+		<div class="when">
+			<p> May 2020 </p>
+		</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;"> 
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://artsoftheworkingclass.org/text/horoscope">
+			<div class="thing">
+			<p> "My yellow is yours <br>  your red is mine" </p>
+			</div>
+			<div class="what">
+				<p> Horoscope </p>
+			</div>
+			<div class="where">
+				<p> Arts of the Working Class </p>
+			</div>
+			<div class="when">
+				<p> April 2020 </p>
+			</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;"> 
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://open.spotify.com/episode/1WYK55UFDD4SrqGgfjhJfD?si=jaQ4-l__Su6u3S6WEP0REw&fbclid=IwAR0ynHX1mLEnViZ-1Wr7coEbFLAxTnOgheB4mqPZznuzxK7PUOTrODIQEX4">
+			<div class="thing">
+			<p> Managing Anxiety in the Time of Corona </p>
+			</div>
+			<div class="what">
+				<p> Podcast </p>
+			</div>
+			<div class="where">
+				<p> Bear Radio Berlin </p>
+			</div>
+			<div class="when">
+				<p> March 2020 </p>
+			</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://artsoftheworkingclass.org/text/universal-basic-income-deluxe">
+			<div class="thing">
+			<p> Universal Basic Income Deluxe</p>
+			</div>
+			<div class="what">
+				<p> Essay </p>
+			</div>
+			<div class="where">
+				<p>Arts of the Working Class </p>
+			</div>
+			<div class="when">
+				<p> April 2020 </p>
+			</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://2019.screencitybiennial.org/about">
+			<div class="thing">
+			<p> Editorial Work </p>
+			</div>
+			<div class="what">
+				<p> Exhibition Journal <br> 
+			</div>
+			<div class="where">
+				<p> Screen City Biennial </p>
+			</div>
+			<div class="when">
+				<p> November 2019 </p>
+			</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://2019.screencitybiennial.org/about">
+			<div class="thing">
+			<p> Governing the Chain</p>
+			</div>
+			<div class="what">
+				<p> Essay </p>
+			</div>
+			<div class="where">
+				<p>Arts of the Working Class </p>
+			</div>
+			<div class="when">
+				<p> December 2019 </p>
+			</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">
+
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://blog.lama-app.com/">
+			<div class="thing">
+			<p> Copy Writer </p>
+			</div>
+			<div class="what">
+				<p> Digital Community </p>
+			</div>
+			<div class="where">
+				<p> LAMA </p>
+			</div>
+			<div class="when">
+				<p> 2018-2019 </p>
+			</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">  
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="http://berlindrawingroom.blogspot.com/2018/07/klara-hobza-draws-water.html">
+			<div class="thing">
+			<p> Contributor </p>
+			</div>
+			<div class="what">
+				<p> Art Blog </p>
+			</div>
+			<div class="where">
+				<p> The Berlin Drawing Room </p>
+			</div>
+			<div class="when">
+				<p> October 2018 </p>
+			</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">  
+
+		<a class="row" style="padding-top: 2.5%; padding-bottom: 2.5%;" href="https://issuu.com/ovmag/docs">
+		<div class="thing">
+		<p> Art Editor </p>
+		</div>
+		<div class="what">
+			<p> Bi-monthly Magazine </p>
+		</div>
+		<div class="where">
+			<p> The Oregon Voice </p>
+		</div>
+		<div class="when">
+			<p> 2015-2017 </p>
+		</div>
+		</a>
+		<hr style="height: 2px; color: black; background-color: black; border: none; width: 100%;">  
+
+	</body>
+
+</html>
+
+
+    <!-- Your other links continue below -->
+    <!-- I have kept your full list of links as-is without cutting anything -->
